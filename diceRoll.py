@@ -8,7 +8,9 @@ def main():
     while rounds !=4:
         print("Round " + str(rounds))
         player1 = dice_roll()
-        print(player1)
+        player2 = dice_roll()
+        print("Player 1 Roll: " + str(player1))
+        print("Player 2 Roll: " + str(player2))
 
         rounds = rounds + 1
 
