@@ -12,6 +12,13 @@ def main():
         print("Player 1 Roll: " + str(player1))
         print("Player 2 Roll: " + str(player2))
 
+        if player1 == player2:
+                print("DRAW!")
+        elif player1 > player2:
+                print("Player 1 wins!")
+        else:
+                print("Player 2 wins!")
+
         rounds = rounds + 1
 
 def dice_roll():
